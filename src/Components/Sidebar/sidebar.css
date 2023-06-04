@@ -1,0 +1,82 @@
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 288px;
+    height:100%;
+    background: #292929;
+    border-radius: 0px 32px 32px 0px;
+    margin-right: 10px;
+}
+.logo{
+    /* background-color: red; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 8%;
+    align-items: center;
+    padding: 12px;
+    color: white;
+}
+.icon{
+    height: 100%;
+    z-index:3;
+}
+.title{
+    width: 50%;
+    height: 100%;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+}
+.access{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 89px;
+    height: 65px;
+    width: 288px;
+    color: white;
+}
+.pair{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 172px;
+    height: 65px;
+    width: 288px;
+    color:white;
+}
+.tokens h3{
+    margin-left: 40px;
+}
+.access:hover,.pair:hover{
+    background: #F30050;
+    cursor: pointer;
+}
+.socials{
+    /* background-color: pink; */
+    position: absolute;
+    bottom:5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.socials span{
+    font-size: 1.6rem;
+    color: #F30050;
+}
+/* @media screen and (max-width:900px){
+    .sidebar{
+        display: none;
+    }   
+} */
